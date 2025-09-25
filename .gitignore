@@ -46,3 +46,9 @@ coverage/
 # Temporary folders
 tmp/
 temp/
+
+# ESLint cache
+.eslintcache
+
+# Prettier cache
+.cache/

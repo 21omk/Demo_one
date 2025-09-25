@@ -18,14 +18,18 @@ const Dashboard: React.FC<DashboardProps> = ({ onLogout }) => {
           Logout
         </button>
       </header>
-      
+
       <main className="dashboard-content">
         <div className="dashboard-card">
           <h2>User Profile</h2>
           <p>You have successfully logged in!</p>
           <div className="user-info">
-            <p><strong>Status:</strong> Authenticated</p>
-            <p><strong>Last Login:</strong> {new Date().toLocaleString()}</p>
+            <p>
+              <strong>Status:</strong> Authenticated
+            </p>
+            <p>
+              <strong>Last Login:</strong> {new Date().toLocaleString()}
+            </p>
           </div>
         </div>
 
