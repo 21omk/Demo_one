@@ -45,7 +45,9 @@
   padding: 30px;
   margin-bottom: 30px;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
-  transition: transform 0.3s, box-shadow 0.3s;
+  transition:
+    transform 0.3s,
+    box-shadow 0.3s;
 }
 
 .dashboard-card:hover {
@@ -135,19 +137,19 @@
     gap: 15px;
     text-align: center;
   }
-  
+
   .dashboard-header h1 {
     font-size: 24px;
   }
-  
+
   .dashboard-content {
     padding: 20px;
   }
-  
+
   .dashboard-card {
     padding: 20px;
   }
-  
+
   .actions-grid {
     grid-template-columns: 1fr;
   }

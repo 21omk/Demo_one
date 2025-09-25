@@ -38,7 +38,7 @@ const Register: React.FC<RegisterProps> = ({ onRegister }) => {
 
     const newUser: User = { name, email, password };
     const registrationSuccess = onRegister(newUser);
-    
+
     if (registrationSuccess) {
       setSuccess('Registration successful! You can now login.');
       setTimeout(() => {
@@ -100,7 +100,9 @@ const Register: React.FC<RegisterProps> = ({ onRegister }) => {
               required
             />
           </div>
-          <button type="submit" className="register-button">Register</button>
+          <button type="submit" className="register-button">
+            Register
+          </button>
         </form>
         <p className="login-link">
           Already have an account? <Link to="/login">Login here</Link>

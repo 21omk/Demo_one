@@ -54,7 +54,9 @@ const Login: React.FC<LoginProps> = ({ onLogin }) => {
               required
             />
           </div>
-          <button type="submit" className="login-button">Login</button>
+          <button type="submit" className="login-button">
+            Login
+          </button>
         </form>
         <p className="register-link">
           Don't have an account? <Link to="/register">Register here</Link>
